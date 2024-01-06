@@ -8,7 +8,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0px 50px 0px 150px;
 }
 
 nav>ul {
@@ -44,7 +44,7 @@ nav a {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 10px 25px;
 }
 
 
@@ -54,18 +54,19 @@ nav a {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom right, bottom left;
+    background-size: 700px 400px, contain;
 
 }
 
 .banner {
-    padding: 30px 30px 0px 200px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .banner-content {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .banner .picture {
@@ -74,29 +75,29 @@ nav a {
 
 .banner-greeting {
     color: #474747;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
 .banner-name {
     color: #181818;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-bottom: 0px;
 }
 
 .banner-description {
     color: #757575;
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 15px;
     margin-bottom: 30px;
 
 }
 
 /* main section style*/
 main {
-    max-width: 1140px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -106,10 +107,10 @@ main section {
 
 /* about section style*/
 .about {
-    padding: 130px;
+    padding: 50px;
     border-radius: 10px;
     background-color: #FFF8F3;
-    margin: 130px 0;
+   
 }
 
 .section-title {
