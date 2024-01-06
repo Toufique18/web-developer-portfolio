@@ -99,8 +99,11 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
-/* main section style*/
+/* about section style*/
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -150,4 +153,49 @@ main {
     font-weight: 700;
     line-height: 30px;
     margin-top: 0;
+}
+
+/* knowledge section style*/
+.knowledge {
+    padding: 0px 130px 0px 130px;
+    border-radius: 10px;
+
+}
+
+#what-i-do {
+    padding: 0px 100px 50px 100px;
+    margin-bottom: 0;
+}
+
+.knowledge-info-container {
+    display: flex;
+    gap: 24px;
+}
+
+.knowledge-info {
+    padding: 30px;
+    
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(11, 11, 11, 0.256);
+}
+
+.knowledge-name {
+    color: #181818;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.knowledge-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* resume container style*/
+.resume-container{
+    display: flex;
+    gap: 25px;
 }
